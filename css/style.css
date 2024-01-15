@@ -10,7 +10,21 @@
 }
 .icon2{
     color: aliceblue;
+
 }
+#content{
+    position: relative;
+}
+
+#btn{
+    position: absolute;
+}
+.inputbtn{
+    top:0px;
+    right: 12px;
+}
+.inputbtn2{ top:1px;
+    right: 4px;}
 .fa-brands{background-color: black;
 color: blue; 
 border-radius: 50%;

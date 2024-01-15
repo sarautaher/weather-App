@@ -18,7 +18,7 @@ const tempIcon = document.querySelector('#tempIcon');
 const nextTempIcon = document.querySelector('#nextTempIcon');
 const secondTempBig = document.querySelector('#secondTempBig');
 const secondTempsmall = document.querySelector('#secondTempsmall');
-const  secondText = document.querySelector('#secondText');
+const  secondText2 = document.querySelector('#secondText2');
 
 const thirdIcon = document.querySelector('#thirdIcon');
 const thirdTempBig = document.querySelector('#thirdTempBig');
@@ -56,7 +56,7 @@ async function weatherdata(location="cairo" , num=3){
     thidText.innerHTML=data.forecast.forecastday[2].day.condition.text;
     comingDay.innerHTML=weekdays[ new Date(data.forecast.forecastday[2].date).getDay()];
     secondTempsmall.innerHTML=`${data.forecast.forecastday[1].day.mintemp_c}<span class="position-relative third-dgree"><sup>o</sup>C</span>`;
-    secondText.innerHTML=data.forecast.forecastday[1].day.condition.text;
+    secondText2.innerText=data.forecast.forecastday[1].day.condition.text;
    
     
 } else{

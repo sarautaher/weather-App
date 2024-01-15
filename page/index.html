@@ -41,10 +41,14 @@
 
     <div class="header">
         <div class="container">
-        <div class="d-flex">
-            <div class="col-md-4"> <input  type="text" class="form-control my-3 bg-transparent rounded-pill text-light "  placeholder="Find your location..." id="search"></div>
-            <div class="col-md-4"  > <button class="btn btn-primary  p-4 rounded-pill" type="submit" id="btn">find</button></div>
-        </div>
+            <div class=" mt-4 content ">
+                <div class="container  mt-5   " id="content">
+                    
+                      <input  type="text" class="form-control  bg-transparent rounded-pill text-light p-3  w-100  "  placeholder="Find your location..." id="search"/>
+                      <input class="bg-info text-white border-info  p-3 px-5  rounded-pill   inputbtn" type="submit" value="Find" id="btn"/>
+                      <div class=" col-md-4   text-danger" id="errer"></div>
+                  </div>
+              </div>
             
 <div class="row py-5">
     <div class="col-md-6">
@@ -64,8 +68,8 @@
             </div>
         </div>
     </div>
-    <div class="col-md-6">
-        <div class="contact-info ">
+    <div class="col-md-6 mt-sm-2 ">
+        <div class="contact-info  ">
 <h1 class="text-white text-center">Contact us</h1>
 <p class="fst-normal text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore ducimus, facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis odit hic, ipsum sed!</p>
 
@@ -105,28 +109,33 @@
     </div>
 </div>
 
-        </div>
+        
 
     </div>
 
 
 
 
-    <div class="bg-dark">
-        <div class=" content container  py-5" id="footer">
+    <div class="bg-dark py-5">
+        <div class=" content container  " id="footer">
             <div class="row   ">
-                <div class="col-md-6">   <input id="inputsubscribe" class="form-control rounded-pill text-white bg-transparent" type="text"
-                    placeholder="Enter your email to subscribe..."></div>
-                <div class="col-md-2"> <button class="btn btn-primary  py-2 rounded-pill mx-3" type="submit">Submit</button></div>
-                <div class="col-md-4"><div class="contact-icon gap-3 pt-4 d-flex">
-                    <i class="fa-brands  fa-facebook rounded-circle fa-2x "></i>
-                    <i class="fa-brands fa-instagram rounded-circle fa-2x "></i>
-                    <i class="fa-brands fa-twitter rounded-circle  fa-2x"></i>
-                    <i class="fa-brands fa-linkedin rounded-circle  fa-2x"></i>
+                <div class="col-md-6"> 
+                    <div id="content">
+                      <input id="inputsubscribe" class="form-control rounded-pill text-white bg-transparent w-100" type="text"placeholder="Enter your email to subscribe...">
+                    <input class="bg-primary text-white border-info  p-1 px-4  rounded-pill   inputbtn2" type="submit" value="Submit" id="btn"/>
+                    </div>
+                </div>
+                <div class="col-md-6"> 
+                    <div class="contact-icon gap-3 pt-4 d-flex justify-content-between">
+                 <a href="https://www.facebook.com" target="_blank">   <i class="fa-brands  fa-facebook rounded-circle fa-2x "></i></a>
+                 <a href="https://www.instagram.com" target="_blank">  <i class="fa-brands fa-instagram rounded-circle fa-2x "></i></a>
+                 <a href="https://www.twitter.com" target="_blank">    <i class="fa-brands fa-twitter rounded-circle  fa-2x"></i></a>
+                 <a href="https://www.linkedin.com" target="_blank">    <i class="fa-brands fa-linkedin rounded-circle  fa-2x"></i></a>
                   </div></div>
              </div>
              <div class="text-center text-white">© Copyright 2014 Company name. Designed by Themezy. All rights reserved</div>
         </div>
         </div>
+        <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

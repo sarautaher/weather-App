@@ -50,31 +50,30 @@
     </nav>
 
 <div class="header">
-    <div class=" mt-4 content mb-3">
-    <div class="container  mt-5 ">
-           <div class=" col-md-4   text-danger" id="errer"></div>
-            <input  type="text" class="form-control my-3 bg-transparent rounded-pill text-light "  placeholder="Find your location..." id="search">
-            <input class="bg-info text-white border-info  p-2 px-3  inputbtn rounded-pill " type="submit" value="Find" id="btn">
-    </div>
+    <div class=" mt-4 content ">
+      <div class="container  mt-5   " id="content">
+          
+            <input  type="text" class="form-control  bg-transparent rounded-pill text-light p-3  w-100  "  placeholder="Find your location..." id="search"/>
+            <input class="bg-info text-white border-info  p-3 px-5 rounded-pill   inputbtn" type="submit" value="Find" id="btn"/>
+            <div class=" col-md-4   text-danger" id="errer"></div>
+        </div>
     </div>
         <div class=" container mt-4">
         <div class="row  gy-3    ">
            <div class="col-md-4    ">
             <div class="bg">
-          
                 <div class="d-flex justify-content-between text-light sun"> <span id="currentDay"> Saturday</span>
                    <span id="currentData"> 30</span>
                   <span  id="currentmonth"> December</span></div>
-               <div class="py-3">   <h3 class="text-light"id="cityName">Cairo</h3></div>
+                  <h3 class="text-light mt-4"id="cityName">Cairo</h3>
                
-               <div class=" d-flex justify-content-between"  >
-                
+               <div class=" d-flex justify-content-between mt-3"  >
                 <h2 class="text-light  fw-bolder"id="temp" > 20<sup>O</sup> C </h2>
                 <img id="tempIcon" class="mainContent-icon" src="img/1113.png" alt="">
                </div>
               
                <p class="text-info pb-4" id="text">Partly cloudy</p>
-               <div class="d-flex   py-4 justify-content-between  "id="secondFooter">
+               <div class="d-flex   py-3 justify-content-between  "id="secondFooter">
              <i class=" fa-solid fa-umbrella icon3 "></i>  <span class="text-light" id="water">20%</span>  
                 <i class=" fa-solid fa-wind icon3  "></i><span class="text-light" id="wind">20 km/h</span>
                 <i class="  fa-solid fa-compass icon3 "></i><span class="text-light" id="smog">Eas</span> 
@@ -84,22 +83,21 @@
            </div>
            <div class="col-md-4  ">
             <div class="bg2">
-        
-             <div class="text-center text-light sun2"> <span  id="nextDay"> sunday</span></div>
-            <div class="text-center m-5">  <img id="nextTempIcon" class="d-block mx-auto mt-4 mb-3" src="img/113.png" alt=""></div>
+             <div class="text-center text-light sun2"> <span  class="text-center text-light sun2"  id="nextDay"> sunday</span></div>
+              <img id="nextTempIcon" class="d-block mx-auto mt-5 mb-3 text-center" src="img/113.png" alt="">
             <div class="fw-bolder text-light text-center"  ><h2 id="secondTempBig">21.6<sup>O</sup> C </h2> 
             <p id="secondTempsmall">14.1<sup>o</sup>C</p>
-             <p class="text-info  "  id="thidText">sunny</p></div>
+             <p class="text-info  "  id="secondText2">sunny</p></div>
         
            </div>
            </div>
-           <div class="col-md-4 py-3 ">
+           <div class="col-md-4  ">
             <div class="bg">
              <div class="text-center text-light sun"> <span id="comingDay"> monday</span></div>
              <img id="thirdIcon" class="d-block mx-auto mt-4 mb-3 text-center" src="img/113.png" alt="">
-            <div class="fw-bolder text-light text-center pb-4"><h2 class="pb-3" id="thirdTempBig">21.6<sup>O</sup> C </h2> 
+            <div class="fw-bolder text-light text-center pb-4"><h2 class="" id="thirdTempBig">21.6<sup>O</sup> C </h2> 
           <span>  <p id="thirdTempsmall">14.1</p></span> 
-        <p class="text-info " id=" secondText">Sunny</p></div>
+        <p class="text-info " id="thidText">sunny</p></div>
     </div>
            
            </div>
@@ -110,14 +108,18 @@
 <div class="bg-dark">
 <div class=" content container  py-5" id="footer">
     <div class="row   ">
-        <div class="col-md-6">   <input id="inputsubscribe" class="form-control rounded-pill text-white bg-transparent" type="text"
-            placeholder="Enter your email to subscribe..."></div>
-        <div class="col-md-2"> <button class="btn btn-primary  py-2 rounded-pill mx-3" type="submit">Submit</button></div>
-        <div class="col-md-4"><div class="contact-icon gap-3 pt-4 d-flex">
-            <i class="fa-brands  fa-facebook rounded-circle fa-2x "></i>
-            <i class="fa-brands fa-instagram rounded-circle fa-2x "></i>
-            <i class="fa-brands fa-twitter rounded-circle  fa-2x"></i>
-            <i class="fa-brands fa-linkedin rounded-circle  fa-2x"></i>
+        <div class="col-md-6"> 
+            <div id="content">
+              <input id="inputsubscribe" class="form-control rounded-pill text-white bg-transparent w-100" type="text"placeholder="Enter your email to subscribe...">
+            <input class="bg-primary text-white border-info  p-1 px-4  rounded-pill   inputbtn2" type="submit" value="Submit" id="btn"/>
+            </div>
+        </div>
+        <div class="col-md-6"> 
+            <div class="contact-icon gap-3 pt-4 d-flex justify-content-between">
+         <a href="https://www.facebook.com" target="_blank">   <i class="fa-brands  fa-facebook rounded-circle fa-2x "></i></a>
+         <a href="https://www.instagram.com" target="_blank">  <i class="fa-brands fa-instagram rounded-circle fa-2x "></i></a>
+         <a href="https://www.twitter.com" target="_blank">    <i class="fa-brands fa-twitter rounded-circle  fa-2x"></i></a>
+         <a href="https://www.linkedin.com" target="_blank">    <i class="fa-brands fa-linkedin rounded-circle  fa-2x"></i></a>
           </div></div>
      </div>
      <div class="text-center text-white">© Copyright 2014 Company name. Designed by Themezy. All rights reserved</div>
