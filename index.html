@@ -49,63 +49,64 @@
         </div>
     </nav>
 
-<div class="header py-5">
-    
-    <div class="container py-5">
-        <div class="ms-auto">
-        <div class="row   ">
-            
+<div class="header">
+    <div class=" mt-4 content mb-3">
+    <div class="container  mt-5 ">
            <div class=" col-md-4   text-danger" id="errer"></div>
-           <div class="col-md-4"> <input  type="text" class="form-control my-3 bg-transparent rounded-pill text-light "  placeholder="Find your location..." id="search"></div>
-           <div class="col-md-4"  > <button class="btn btn-primary  p-4 rounded-pill" type="submit" id="btn">find</button></div>
-        </div></div>
-        <div class="row    rounded ">
-           <div class="col-md-4   py-3 ">
+            <input  type="text" class="form-control my-3 bg-transparent rounded-pill text-light "  placeholder="Find your location..." id="search">
+            <input class="bg-info text-white border-info  p-2 px-3  inputbtn rounded-pill " type="submit" value="Find" id="btn">
+    </div>
+    </div>
+        <div class=" container mt-4">
+        <div class="row  gy-3    ">
+           <div class="col-md-4    ">
             <div class="bg">
-            <div class="sun3" id="today" > 
+          
                 <div class="d-flex justify-content-between text-light sun"> <span id="currentDay"> Saturday</span>
                    <span id="currentData"> 30</span>
                   <span  id="currentmonth"> December</span></div>
                <div class="py-3">   <h3 class="text-light"id="cityName">Cairo</h3></div>
                
-               <div class="row  p-4">
+               <div class=" d-flex justify-content-between"  >
                 
-                <div class="col-sm-8"><h2 class="text-light  fw-bolder"id="temp" > 20<sup>O</sup> C </h2></div>
-                <div class="col-sm-4"> <img id="tempIcon" class="mainContent-icon" src="img/1113.png" alt=""></div>
+                <h2 class="text-light  fw-bolder"id="temp" > 20<sup>O</sup> C </h2>
+                <img id="tempIcon" class="mainContent-icon" src="img/1113.png" alt="">
                </div>
               
                <p class="text-info pb-4" id="text">Partly cloudy</p>
                <div class="d-flex   py-4 justify-content-between  "id="secondFooter">
-            <div>  <i class=" fa-solid fa-umbrella icon3 "></i>  <span class="text-light" id="water">20%</span> </div> 
-              <div>  <i class=" fa-solid fa-wind icon3  "></i><span class="text-light" id="wind">20 km/h</span></div>
-              <div>  <i class="  fa-solid fa-compass icon3 "></i><span class="text-light" id="smog">Eas</span> </div>
+             <i class=" fa-solid fa-umbrella icon3 "></i>  <span class="text-light" id="water">20%</span>  
+                <i class=" fa-solid fa-wind icon3  "></i><span class="text-light" id="wind">20 km/h</span>
+                <i class="  fa-solid fa-compass icon3 "></i><span class="text-light" id="smog">Eas</span> 
              </div>
-               </div>
+               
             </div>
            </div>
-           <div class="col-md-4  py-3 h-50">
+           <div class="col-md-4  ">
             <div class="bg2">
-            <div class="sun3" > 
+        
              <div class="text-center text-light sun2"> <span  id="nextDay"> sunday</span></div>
             <div class="text-center m-5">  <img id="nextTempIcon" class="d-block mx-auto mt-4 mb-3" src="img/113.png" alt=""></div>
-            <div class="fw-bolder text-light text-center" id="secondTempBig" ><h2>21.6<sup>O</sup> C </h2> 
+            <div class="fw-bolder text-light text-center"  ><h2 id="secondTempBig">21.6<sup>O</sup> C </h2> 
             <p id="secondTempsmall">14.1<sup>o</sup>C</p>
-        <p class="text-info  "  id="thidText">sunny</p></div>
-        </div>
+             <p class="text-info  "  id="thidText">sunny</p></div>
+        
            </div>
            </div>
            <div class="col-md-4 py-3 ">
             <div class="bg">
-            <div class="sun3" > <div class="text-center text-light sun"> <span id="comingDay"> monday</span></div>
-            <div class="text-center m-5"> <img id="thirdIcon" class="d-block mx-auto mt-4 mb-3" src="img/113.png" alt=""></div>
+             <div class="text-center text-light sun"> <span id="comingDay"> monday</span></div>
+             <img id="thirdIcon" class="d-block mx-auto mt-4 mb-3 text-center" src="img/113.png" alt="">
             <div class="fw-bolder text-light text-center pb-4"><h2 class="pb-3" id="thirdTempBig">21.6<sup>O</sup> C </h2> 
-            <p id="thirdTempsmall">14.1<sup>o</sup>C</p>
-        <p class="text-info " id="thidText">Sunny</p></div></div>
-           </div>
+          <span>  <p id="thirdTempsmall">14.1</p></span> 
+        <p class="text-info " id=" secondText">Sunny</p></div>
+    </div>
+           
            </div>
         </div>
     </div>
 </div>
+
 <div class="bg-dark">
 <div class=" content container  py-5" id="footer">
     <div class="row   ">
@@ -122,7 +123,7 @@
      <div class="text-center text-white">© Copyright 2014 Company name. Designed by Themezy. All rights reserved</div>
 </div>
 </div>
-    
+    <script  src="js/bootstrap.bundle.min.js"></script>
     <script src="js/style.js"></script>
 </body>
 </html>
